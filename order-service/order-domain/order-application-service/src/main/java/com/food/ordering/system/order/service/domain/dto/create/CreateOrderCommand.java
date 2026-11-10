@@ -22,7 +22,7 @@ public class CreateOrderCommand {
     @NotNull
     private final BigDecimal price;
     @NotNull
-    private final List<OrderItem> orderItems;
+    private final List<OrderItem> items;
     @NotNull
     private final OrderAddress address;
 
