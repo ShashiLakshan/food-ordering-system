@@ -4,21 +4,20 @@ import java.util.Objects;
 import java.util.UUID;
 
 public class StreetAddress {
-
-    private final UUID streetId;
+    private final UUID id;
     private final String street;
     private final String postalCode;
     private final String city;
 
     public StreetAddress(UUID streetId, String street, String postalCode, String city) {
-        this.streetId = streetId;
+        this.id = streetId;
         this.street = street;
         this.postalCode = postalCode;
         this.city = city;
     }
 
-    public UUID getStreetId() {
-        return streetId;
+    public UUID getId() {
+        return id;
     }
 
     public String getStreet() {
